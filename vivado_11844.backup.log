@@ -1,0 +1,1117 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun May 25 00:11:12 2025
+# Process ID: 11844
+# Current directory: C:/Users/Samet AKIN/vivadoproje/ADC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13440 C:\Users\Samet AKIN\vivadoproje\ADC\ADC.xpr
+# Log file: C:/Users/Samet AKIN/vivadoproje/ADC/vivado.log
+# Journal file: C:/Users/Samet AKIN/vivadoproje/ADC\vivado.jou
+# Running On: DESKTOP-5L4I2AI, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 4, Host memory: 8419 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Samet AKIN/vivadoproje/ADC/ADC.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.0/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:sp701:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/sp701/1.1/board.xml as part xc7s100fgga676-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc702:part0:1.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc702/1.4/board.xml as part xc7z020clg484-1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/vivado/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:14 . Memory (MB): peak = 1452.750 ; gain = 275.359
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+WARNING: [VRFC 10-3248] data object 'ana_volt' is already declared [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+WARNING: [VRFC 10-9364] second declaration of 'ana_volt' is ignored [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.digital_top
+Compiling module xil_defaultlib.adc_model
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_behav -key {Behavioral:sim_1:Functional:tb} -tclbatch {tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1505.199 ; gain = 31.875
+run 20 ms
+test started!
+t=114500 us: CH0 expected=69, memory=69 Successful
+t=178500 us: CH1 expected=ff, memory=ff Successful
+t=242500 us: CH2 expected=d2, memory=d2 Successful
+t=306500 us: CH3 expected=1f, memory=1f Successful
+t=370500 us: CH4 expected=08, memory=08 Successful
+t=434500 us: CH5 expected=a6, memory=a6 Successful
+t=498500 us: CH6 expected=b3, memory=b3 Successful
+t=562500 us: CH7 expected=92, memory=92 Successful
+t=626500 us: CH8 expected=f9, memory=f9 Successful
+t=690500 us: CH9 expected=00, memory=00 Successful
+t=754500 us: CH0 expected=a3, memory=a3 Successful
+t=818500 us: CH1 expected=cf, memory=cf Successful
+t=882500 us: CH2 expected=e9, memory=e9 Successful
+t=946500 us: CH3 expected=42, memory=42 Successful
+t=1010500 us: CH4 expected=c9, memory=c9 Successful
+t=1074500 us: CH5 expected=64, memory=64 Successful
+t=1138500 us: CH6 expected=41, memory=41 Successful
+t=1202500 us: CH7 expected=7a, memory=7a Successful
+t=1266500 us: CH8 expected=cd, memory=cd Successful
+t=1330500 us: CH9 expected=e5, memory=e5 Successful
+t=1394500 us: CH0 expected=78, memory=78 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 57
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'D:/vivado/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+WARNING: [VRFC 10-3248] data object 'ana_volt' is already declared [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+WARNING: [VRFC 10-9364] second declaration of 'ana_volt' is ignored [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.digital_top
+Compiling module xil_defaultlib.adc_model
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1525.852 ; gain = 0.000
+run 20 ms
+test started!
+t=114500 us: CH0 expected=69, memory=69 Successful
+t=178500 us: CH1 expected=ff, memory=ff Successful
+t=242500 us: CH2 expected=d2, memory=d2 Successful
+t=306500 us: CH3 expected=1f, memory=1f Successful
+t=370500 us: CH4 expected=08, memory=08 Successful
+t=434500 us: CH5 expected=a6, memory=a6 Successful
+t=498500 us: CH6 expected=b3, memory=b3 Successful
+t=562500 us: CH7 expected=92, memory=92 Successful
+t=626500 us: CH8 expected=f9, memory=f9 Successful
+t=690500 us: CH9 expected=00, memory=00 Successful
+t=754500 us: CH0 expected=a3, memory=a3 Successful
+t=818500 us: CH1 expected=cf, memory=cf Successful
+t=882500 us: CH2 expected=e9, memory=e9 Successful
+t=946500 us: CH3 expected=42, memory=42 Successful
+t=1010500 us: CH4 expected=c9, memory=c9 Successful
+t=1074500 us: CH5 expected=64, memory=64 Successful
+t=1138500 us: CH6 expected=41, memory=41 Successful
+t=1202500 us: CH7 expected=7a, memory=7a Successful
+t=1266500 us: CH8 expected=cd, memory=cd Successful
+t=1330500 us: CH9 expected=e5, memory=e5 Successful
+t=1394500 us: CH0 expected=78, memory=78 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 57
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+run 20 ms
+test started!
+t=114500 us: CH0 expected=69, memory=69 Successful
+t=178500 us: CH1 expected=ff, memory=ff Successful
+t=242500 us: CH2 expected=d2, memory=d2 Successful
+t=306500 us: CH3 expected=1f, memory=1f Successful
+t=370500 us: CH4 expected=08, memory=08 Successful
+t=434500 us: CH5 expected=a6, memory=a6 Successful
+t=498500 us: CH6 expected=b3, memory=b3 Successful
+t=562500 us: CH7 expected=92, memory=92 Successful
+t=626500 us: CH8 expected=f9, memory=f9 Successful
+t=690500 us: CH9 expected=00, memory=00 Successful
+t=754500 us: CH0 expected=a3, memory=a3 Successful
+t=818500 us: CH1 expected=cf, memory=cf Successful
+t=882500 us: CH2 expected=e9, memory=e9 Successful
+t=946500 us: CH3 expected=42, memory=42 Successful
+t=1010500 us: CH4 expected=c9, memory=c9 Successful
+t=1074500 us: CH5 expected=64, memory=64 Successful
+t=1138500 us: CH6 expected=41, memory=41 Successful
+t=1202500 us: CH7 expected=7a, memory=7a Successful
+t=1266500 us: CH8 expected=cd, memory=cd Successful
+t=1330500 us: CH9 expected=e5, memory=e5 Successful
+t=1394500 us: CH0 expected=78, memory=78 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 57
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+WARNING: [VRFC 10-3248] data object 'ana_volt' is already declared [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+WARNING: [VRFC 10-9364] second declaration of 'ana_volt' is ignored [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.digital_top
+Compiling module xil_defaultlib.adc_model
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1530.586 ; gain = 0.000
+run 20 ms
+test started!
+t=114500 us: CH0 expected=69, memory=69 Successful
+t=178500 us: CH1 expected=69, memory=69 Successful
+t=242500 us: CH2 expected=5f, memory=5f Successful
+t=306500 us: CH3 expected=e2, memory=e2 Successful
+t=370500 us: CH4 expected=e8, memory=e8 Successful
+t=434500 us: CH5 expected=b5, memory=b5 Successful
+t=498500 us: CH6 expected=ea, memory=ea Successful
+t=562500 us: CH7 expected=7a, memory=7a Successful
+t=626500 us: CH8 expected=33, memory=33 Successful
+t=690500 us: CH9 expected=ec, memory=ec Successful
+t=754500 us: CH0 expected=6d, memory=6d Successful
+t=818500 us: CH1 expected=98, memory=98 Successful
+t=882500 us: CH2 expected=d5, memory=d5 Successful
+t=946500 us: CH3 expected=e9, memory=e9 Successful
+t=1010500 us: CH4 expected=a7, memory=a7 Successful
+t=1074500 us: CH5 expected=c9, memory=c9 Successful
+t=1138500 us: CH6 expected=64, memory=64 Successful
+t=1202500 us: CH7 expected=40, memory=40 Successful
+t=1266500 us: CH8 expected=08, memory=08 Successful
+t=1330500 us: CH9 expected=42, memory=42 Successful
+t=1394500 us: CH0 expected=02, memory=02 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 57
+run 20 ms
+t=1458500 us: CH1 expected=ce, memory=ce Successful
+t=1522500 us: CH2 expected=47, memory=47 Successful
+t=1586500 us: CH3 expected=33, memory=33 Successful
+t=1650500 us: CH4 expected=3d, memory=3d Successful
+t=1714500 us: CH5 expected=66, memory=66 Successful
+t=1778500 us: CH6 expected=1e, memory=1e Successful
+t=1842500 us: CH7 expected=47, memory=47 Successful
+t=1906500 us: CH8 expected=88, memory=88 Successful
+t=1970500 us: CH9 expected=9c, memory=9c Successful
+t=2034500 us: CH0 expected=74, memory=74 Successful
+t=2098500 us: CH1 expected=75, memory=75 Successful
+t=2162500 us: CH2 expected=63, memory=63 Successful
+t=2226500 us: CH3 expected=e5, memory=e5 Successful
+t=2290500 us: CH4 expected=6d, memory=6d Successful
+t=2354500 us: CH5 expected=5d, memory=5d Successful
+t=2418500 us: CH6 expected=63, memory=63 Successful
+t=2482500 us: CH7 expected=98, memory=98 Successful
+t=2546500 us: CH8 expected=88, memory=88 Successful
+t=2610500 us: CH9 expected=28, memory=28 Successful
+t=2674500 us: CH0 expected=68, memory=68 Successful
+t=2738500 us: CH1 expected=75, memory=75 Successful
+t=2802500 us: CH2 expected=63, memory=63 Successful
+t=2866500 us: CH3 expected=e5, memory=e5 Successful
+t=2930500 us: CH4 expected=6d, memory=6d Successful
+t=2994500 us: CH5 expected=5d, memory=5d Successful
+t=3058500 us: CH6 expected=63, memory=63 Successful
+t=3122500 us: CH7 expected=98, memory=98 Successful
+t=3186500 us: CH8 expected=88, memory=88 Successful
+t=3250500 us: CH9 expected=28, memory=28 Successful
+t=3314500 us: CH0 expected=68, memory=68 Successful
+t=3378500 us: CH1 expected=75, memory=75 Successful
+t=3442500 us: CH2 expected=63, memory=63 Successful
+t=3506500 us: CH3 expected=e5, memory=e5 Successful
+t=3570500 us: CH4 expected=6d, memory=6d Successful
+t=3634500 us: CH5 expected=5d, memory=5d Successful
+t=3698500 us: CH6 expected=63, memory=63 Successful
+t=3762500 us: CH7 expected=98, memory=98 Successful
+t=3826500 us: CH8 expected=88, memory=88 Successful
+t=3890500 us: CH9 expected=28, memory=28 Successful
+t=3954500 us: CH0 expected=68, memory=68 Successful
+t=4018500 us: CH1 expected=75, memory=75 Successful
+t=4082500 us: CH2 expected=63, memory=63 Successful
+t=4146500 us: CH3 expected=e5, memory=e5 Successful
+t=4210500 us: CH4 expected=6d, memory=6d Successful
+t=4274500 us: CH5 expected=5d, memory=5d Successful
+t=4338500 us: CH6 expected=63, memory=63 Successful
+t=4402500 us: CH7 expected=98, memory=98 Successful
+t=4466500 us: CH8 expected=88, memory=88 Successful
+t=4530500 us: CH9 expected=28, memory=28 Successful
+t=4594500 us: CH0 expected=68, memory=68 Successful
+t=4658500 us: CH1 expected=75, memory=75 Successful
+t=4722500 us: CH2 expected=63, memory=63 Successful
+t=4786500 us: CH3 expected=e5, memory=e5 Successful
+t=4850500 us: CH4 expected=6d, memory=6d Successful
+t=4914500 us: CH5 expected=5d, memory=5d Successful
+t=4978500 us: CH6 expected=63, memory=63 Successful
+t=5042500 us: CH7 expected=98, memory=98 Successful
+t=5106500 us: CH8 expected=88, memory=88 Successful
+t=5170500 us: CH9 expected=28, memory=28 Successful
+t=5234500 us: CH0 expected=68, memory=68 Successful
+t=5298500 us: CH1 expected=75, memory=75 Successful
+t=5362500 us: CH2 expected=63, memory=63 Successful
+t=5426500 us: CH3 expected=e5, memory=e5 Successful
+t=5490500 us: CH4 expected=6d, memory=6d Successful
+t=5554500 us: CH5 expected=5d, memory=5d Successful
+t=5618500 us: CH6 expected=63, memory=63 Successful
+t=5682500 us: CH7 expected=98, memory=98 Successful
+t=5746500 us: CH8 expected=88, memory=88 Successful
+t=5810500 us: CH9 expected=28, memory=28 Successful
+t=5874500 us: CH0 expected=68, memory=68 Successful
+t=5938500 us: CH1 expected=75, memory=75 Successful
+t=6002500 us: CH2 expected=63, memory=63 Successful
+t=6066500 us: CH3 expected=e5, memory=e5 Successful
+t=6130500 us: CH4 expected=6d, memory=6d Successful
+t=6194500 us: CH5 expected=5d, memory=5d Successful
+t=6258500 us: CH6 expected=63, memory=63 Successful
+t=6322500 us: CH7 expected=98, memory=98 Successful
+t=6386500 us: CH8 expected=88, memory=88 Successful
+t=6450500 us: CH9 expected=28, memory=28 Successful
+t=6514500 us: CH0 expected=68, memory=68 Successful
+t=6578500 us: CH1 expected=75, memory=75 Successful
+t=6642500 us: CH2 expected=63, memory=63 Successful
+t=6706500 us: CH3 expected=e5, memory=e5 Successful
+t=6770500 us: CH4 expected=6d, memory=6d Successful
+t=6834500 us: CH5 expected=5d, memory=5d Successful
+t=6898500 us: CH6 expected=63, memory=63 Successful
+t=6962500 us: CH7 expected=98, memory=98 Successful
+t=7026500 us: CH8 expected=88, memory=88 Successful
+t=7090500 us: CH9 expected=28, memory=28 Successful
+t=7154500 us: CH0 expected=68, memory=68 Successful
+t=7218500 us: CH1 expected=75, memory=75 Successful
+t=7282500 us: CH2 expected=63, memory=63 Successful
+t=7346500 us: CH3 expected=e5, memory=e5 Successful
+t=7410500 us: CH4 expected=6d, memory=6d Successful
+t=7474500 us: CH5 expected=5d, memory=5d Successful
+t=7538500 us: CH6 expected=63, memory=63 Successful
+t=7602500 us: CH7 expected=98, memory=98 Successful
+t=7666500 us: CH8 expected=88, memory=88 Successful
+t=7730500 us: CH9 expected=28, memory=28 Successful
+t=7794500 us: CH0 expected=68, memory=68 Successful
+t=7858500 us: CH1 expected=75, memory=75 Successful
+t=7922500 us: CH2 expected=63, memory=63 Successful
+t=7986500 us: CH3 expected=e5, memory=e5 Successful
+t=8050500 us: CH4 expected=6d, memory=6d Successful
+t=8114500 us: CH5 expected=5d, memory=5d Successful
+t=8178500 us: CH6 expected=63, memory=63 Successful
+t=8242500 us: CH7 expected=98, memory=98 Successful
+t=8306500 us: CH8 expected=88, memory=88 Successful
+t=8370500 us: CH9 expected=28, memory=28 Successful
+t=8434500 us: CH0 expected=68, memory=68 Successful
+t=8498500 us: CH1 expected=75, memory=75 Successful
+t=8562500 us: CH2 expected=63, memory=63 Successful
+t=8626500 us: CH3 expected=e5, memory=e5 Successful
+t=8690500 us: CH4 expected=6d, memory=6d Successful
+t=8754500 us: CH5 expected=5d, memory=5d Successful
+t=8818500 us: CH6 expected=63, memory=63 Successful
+t=8882500 us: CH7 expected=98, memory=98 Successful
+t=8946500 us: CH8 expected=88, memory=88 Successful
+t=9010500 us: CH9 expected=28, memory=28 Successful
+t=9074500 us: CH0 expected=68, memory=68 Successful
+t=9138500 us: CH1 expected=75, memory=75 Successful
+t=9202500 us: CH2 expected=63, memory=63 Successful
+t=9266500 us: CH3 expected=e5, memory=e5 Successful
+t=9330500 us: CH4 expected=6d, memory=6d Successful
+t=9394500 us: CH5 expected=5d, memory=5d Successful
+t=9458500 us: CH6 expected=63, memory=63 Successful
+t=9522500 us: CH7 expected=98, memory=98 Successful
+t=9586500 us: CH8 expected=88, memory=88 Successful
+t=9650500 us: CH9 expected=28, memory=28 Successful
+t=9714500 us: CH0 expected=68, memory=68 Successful
+t=9778500 us: CH1 expected=75, memory=75 Successful
+t=9842500 us: CH2 expected=63, memory=63 Successful
+t=9906500 us: CH3 expected=e5, memory=e5 Successful
+t=9970500 us: CH4 expected=6d, memory=6d Successful
+t=10034500 us: CH5 expected=5d, memory=5d Successful
+t=10098500 us: CH6 expected=63, memory=63 Successful
+t=10162500 us: CH7 expected=98, memory=98 Successful
+t=10226500 us: CH8 expected=88, memory=88 Successful
+t=10290500 us: CH9 expected=28, memory=28 Successful
+t=10354500 us: CH0 expected=68, memory=68 Successful
+t=10418500 us: CH1 expected=75, memory=75 Successful
+t=10482500 us: CH2 expected=63, memory=63 Successful
+t=10546500 us: CH3 expected=e5, memory=e5 Successful
+t=10610500 us: CH4 expected=6d, memory=6d Successful
+t=10674500 us: CH5 expected=5d, memory=5d Successful
+t=10738500 us: CH6 expected=63, memory=63 Successful
+t=10802500 us: CH7 expected=98, memory=98 Successful
+t=10866500 us: CH8 expected=88, memory=88 Successful
+t=10930500 us: CH9 expected=28, memory=28 Successful
+t=10994500 us: CH0 expected=68, memory=68 Successful
+t=11058500 us: CH1 expected=75, memory=75 Successful
+t=11122500 us: CH2 expected=63, memory=63 Successful
+t=11186500 us: CH3 expected=e5, memory=e5 Successful
+t=11250500 us: CH4 expected=6d, memory=6d Successful
+t=11314500 us: CH5 expected=5d, memory=5d Successful
+t=11378500 us: CH6 expected=63, memory=63 Successful
+t=11442500 us: CH7 expected=98, memory=98 Successful
+t=11506500 us: CH8 expected=88, memory=88 Successful
+t=11570500 us: CH9 expected=28, memory=28 Successful
+t=11634500 us: CH0 expected=68, memory=68 Successful
+t=11698500 us: CH1 expected=75, memory=75 Successful
+t=11762500 us: CH2 expected=63, memory=63 Successful
+t=11826500 us: CH3 expected=e5, memory=e5 Successful
+t=11890500 us: CH4 expected=6d, memory=6d Successful
+t=11954500 us: CH5 expected=5d, memory=5d Successful
+t=12018500 us: CH6 expected=63, memory=63 Successful
+t=12082500 us: CH7 expected=98, memory=98 Successful
+t=12146500 us: CH8 expected=88, memory=88 Successful
+t=12210500 us: CH9 expected=28, memory=28 Successful
+t=12274500 us: CH0 expected=68, memory=68 Successful
+t=12338500 us: CH1 expected=75, memory=75 Successful
+t=12402500 us: CH2 expected=63, memory=63 Successful
+t=12466500 us: CH3 expected=e5, memory=e5 Successful
+t=12530500 us: CH4 expected=6d, memory=6d Successful
+t=12594500 us: CH5 expected=5d, memory=5d Successful
+t=12658500 us: CH6 expected=63, memory=63 Successful
+t=12722500 us: CH7 expected=98, memory=98 Successful
+t=12786500 us: CH8 expected=88, memory=88 Successful
+t=12850500 us: CH9 expected=28, memory=28 Successful
+t=12914500 us: CH0 expected=68, memory=68 Successful
+t=12978500 us: CH1 expected=75, memory=75 Successful
+t=13042500 us: CH2 expected=63, memory=63 Successful
+t=13106500 us: CH3 expected=e5, memory=e5 Successful
+t=13170500 us: CH4 expected=6d, memory=6d Successful
+t=13234500 us: CH5 expected=5d, memory=5d Successful
+t=13298500 us: CH6 expected=63, memory=63 Successful
+t=13362500 us: CH7 expected=98, memory=98 Successful
+t=13426500 us: CH8 expected=88, memory=88 Successful
+t=13490500 us: CH9 expected=28, memory=28 Successful
+t=13554500 us: CH0 expected=68, memory=68 Successful
+t=13618500 us: CH1 expected=75, memory=75 Successful
+t=13682500 us: CH2 expected=63, memory=63 Successful
+t=13746500 us: CH3 expected=e5, memory=e5 Successful
+t=13810500 us: CH4 expected=6d, memory=6d Successful
+t=13874500 us: CH5 expected=5d, memory=5d Successful
+t=13938500 us: CH6 expected=63, memory=63 Successful
+t=14002500 us: CH7 expected=98, memory=98 Successful
+t=14066500 us: CH8 expected=88, memory=88 Successful
+t=14130500 us: CH9 expected=28, memory=28 Successful
+t=14194500 us: CH0 expected=68, memory=68 Successful
+t=14258500 us: CH1 expected=75, memory=75 Successful
+t=14322500 us: CH2 expected=63, memory=63 Successful
+t=14386500 us: CH3 expected=e5, memory=e5 Successful
+t=14450500 us: CH4 expected=6d, memory=6d Successful
+t=14514500 us: CH5 expected=5d, memory=5d Successful
+t=14578500 us: CH6 expected=63, memory=63 Successful
+t=14642500 us: CH7 expected=98, memory=98 Successful
+t=14706500 us: CH8 expected=88, memory=88 Successful
+t=14770500 us: CH9 expected=28, memory=28 Successful
+t=14834500 us: CH0 expected=68, memory=68 Successful
+t=14898500 us: CH1 expected=75, memory=75 Successful
+t=14962500 us: CH2 expected=63, memory=63 Successful
+t=15026500 us: CH3 expected=e5, memory=e5 Successful
+t=15090500 us: CH4 expected=6d, memory=6d Successful
+t=15154500 us: CH5 expected=5d, memory=5d Successful
+t=15218500 us: CH6 expected=63, memory=63 Successful
+t=15282500 us: CH7 expected=98, memory=98 Successful
+t=15346500 us: CH8 expected=88, memory=88 Successful
+t=15410500 us: CH9 expected=28, memory=28 Successful
+t=15474500 us: CH0 expected=68, memory=68 Successful
+t=15538500 us: CH1 expected=75, memory=75 Successful
+t=15602500 us: CH2 expected=63, memory=63 Successful
+t=15666500 us: CH3 expected=e5, memory=e5 Successful
+t=15730500 us: CH4 expected=6d, memory=6d Successful
+t=15794500 us: CH5 expected=5d, memory=5d Successful
+t=15858500 us: CH6 expected=63, memory=63 Successful
+t=15922500 us: CH7 expected=98, memory=98 Successful
+t=15986500 us: CH8 expected=88, memory=88 Successful
+t=16050500 us: CH9 expected=28, memory=28 Successful
+t=16114500 us: CH0 expected=68, memory=68 Successful
+t=16178500 us: CH1 expected=75, memory=75 Successful
+t=16242500 us: CH2 expected=63, memory=63 Successful
+t=16306500 us: CH3 expected=e5, memory=e5 Successful
+t=16370500 us: CH4 expected=6d, memory=6d Successful
+t=16434500 us: CH5 expected=5d, memory=5d Successful
+t=16498500 us: CH6 expected=63, memory=63 Successful
+t=16562500 us: CH7 expected=98, memory=98 Successful
+t=16626500 us: CH8 expected=88, memory=88 Successful
+t=16690500 us: CH9 expected=28, memory=28 Successful
+t=16754500 us: CH0 expected=68, memory=68 Successful
+t=16818500 us: CH1 expected=75, memory=75 Successful
+t=16882500 us: CH2 expected=63, memory=63 Successful
+t=16946500 us: CH3 expected=e5, memory=e5 Successful
+t=17010500 us: CH4 expected=6d, memory=6d Successful
+t=17074500 us: CH5 expected=5d, memory=5d Successful
+t=17138500 us: CH6 expected=63, memory=63 Successful
+t=17202500 us: CH7 expected=98, memory=98 Successful
+t=17266500 us: CH8 expected=88, memory=88 Successful
+t=17330500 us: CH9 expected=28, memory=28 Successful
+t=17394500 us: CH0 expected=68, memory=68 Successful
+t=17458500 us: CH1 expected=75, memory=75 Successful
+t=17522500 us: CH2 expected=63, memory=63 Successful
+t=17586500 us: CH3 expected=e5, memory=e5 Successful
+t=17650500 us: CH4 expected=6d, memory=6d Successful
+t=17714500 us: CH5 expected=5d, memory=5d Successful
+t=17778500 us: CH6 expected=63, memory=63 Successful
+t=17842500 us: CH7 expected=98, memory=98 Successful
+t=17906500 us: CH8 expected=88, memory=88 Successful
+t=17970500 us: CH9 expected=28, memory=28 Successful
+t=18034500 us: CH0 expected=68, memory=68 Successful
+t=18098500 us: CH1 expected=75, memory=75 Successful
+t=18162500 us: CH2 expected=63, memory=63 Successful
+t=18226500 us: CH3 expected=e5, memory=e5 Successful
+t=18290500 us: CH4 expected=6d, memory=6d Successful
+t=18354500 us: CH5 expected=5d, memory=5d Successful
+t=18418500 us: CH6 expected=63, memory=63 Successful
+t=18482500 us: CH7 expected=98, memory=98 Successful
+t=18546500 us: CH8 expected=88, memory=88 Successful
+t=18610500 us: CH9 expected=28, memory=28 Successful
+t=18674500 us: CH0 expected=68, memory=68 Successful
+t=18738500 us: CH1 expected=75, memory=75 Successful
+t=18802500 us: CH2 expected=63, memory=63 Successful
+t=18866500 us: CH3 expected=e5, memory=e5 Successful
+t=18930500 us: CH4 expected=6d, memory=6d Successful
+t=18994500 us: CH5 expected=5d, memory=5d Successful
+t=19058500 us: CH6 expected=63, memory=63 Successful
+t=19122500 us: CH7 expected=98, memory=98 Successful
+t=19186500 us: CH8 expected=88, memory=88 Successful
+t=19250500 us: CH9 expected=28, memory=28 Successful
+t=19314500 us: CH0 expected=68, memory=68 Successful
+t=19378500 us: CH1 expected=75, memory=75 Successful
+t=19442500 us: CH2 expected=63, memory=63 Successful
+t=19506500 us: CH3 expected=e5, memory=e5 Successful
+t=19570500 us: CH4 expected=6d, memory=6d Successful
+t=19634500 us: CH5 expected=5d, memory=5d Successful
+t=19698500 us: CH6 expected=63, memory=63 Successful
+t=19762500 us: CH7 expected=98, memory=98 Successful
+t=19826500 us: CH8 expected=88, memory=88 Successful
+t=19890500 us: CH9 expected=28, memory=28 Successful
+t=19954500 us: CH0 expected=68, memory=68 Successful
+t=20018500 us: CH1 expected=75, memory=75 Successful
+t=20082500 us: CH2 expected=63, memory=63 Successful
+t=20146500 us: CH3 expected=e5, memory=e5 Successful
+t=20210500 us: CH4 expected=6d, memory=6d Successful
+t=20274500 us: CH5 expected=5d, memory=5d Successful
+t=20338500 us: CH6 expected=63, memory=63 Successful
+t=20402500 us: CH7 expected=98, memory=98 Successful
+t=20466500 us: CH8 expected=88, memory=88 Successful
+t=20530500 us: CH9 expected=28, memory=28 Successful
+t=20594500 us: CH0 expected=68, memory=68 Successful
+t=20658500 us: CH1 expected=75, memory=75 Successful
+t=20722500 us: CH2 expected=63, memory=63 Successful
+t=20786500 us: CH3 expected=e5, memory=e5 Successful
+t=20850500 us: CH4 expected=6d, memory=6d Successful
+t=20914500 us: CH5 expected=5d, memory=5d Successful
+t=20978500 us: CH6 expected=63, memory=63 Successful
+t=21042500 us: CH7 expected=98, memory=98 Successful
+t=21106500 us: CH8 expected=88, memory=88 Successful
+t=21170500 us: CH9 expected=28, memory=28 Successful
+t=21234500 us: CH0 expected=68, memory=68 Successful
+t=21298500 us: CH1 expected=75, memory=75 Successful
+t=21362500 us: CH2 expected=63, memory=63 Successful
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+run 20 ms
+test started!
+t=114500 us: CH0 expected=69, memory=69 Successful
+t=178500 us: CH1 expected=69, memory=69 Successful
+t=242500 us: CH2 expected=5f, memory=5f Successful
+t=306500 us: CH3 expected=e2, memory=e2 Successful
+t=370500 us: CH4 expected=e8, memory=e8 Successful
+t=434500 us: CH5 expected=b5, memory=b5 Successful
+t=498500 us: CH6 expected=ea, memory=ea Successful
+t=562500 us: CH7 expected=7a, memory=7a Successful
+t=626500 us: CH8 expected=33, memory=33 Successful
+t=690500 us: CH9 expected=ec, memory=ec Successful
+t=754500 us: CH0 expected=6d, memory=6d Successful
+t=818500 us: CH1 expected=98, memory=98 Successful
+t=882500 us: CH2 expected=d5, memory=d5 Successful
+t=946500 us: CH3 expected=e9, memory=e9 Successful
+t=1010500 us: CH4 expected=a7, memory=a7 Successful
+t=1074500 us: CH5 expected=c9, memory=c9 Successful
+t=1138500 us: CH6 expected=64, memory=64 Successful
+t=1202500 us: CH7 expected=40, memory=40 Successful
+t=1266500 us: CH8 expected=08, memory=08 Successful
+t=1330500 us: CH9 expected=42, memory=42 Successful
+t=1394500 us: CH0 expected=02, memory=02 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 57
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+WARNING: [VRFC 10-3248] data object 'ana_volt' is already declared [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+WARNING: [VRFC 10-9364] second declaration of 'ana_volt' is ignored [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.digital_top
+Compiling module xil_defaultlib.adc_model
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1531.316 ; gain = 0.000
+run 20 ms
+test started!
+t=114500 us: CH0 expected=46, memory=46 Successful
+t=178500 us: CH1 expected=46, memory=46 Successful
+t=242500 us: CH2 expected=23, memory=23 Successful
+t=306500 us: CH3 expected=a7, memory=a7 Successful
+t=370500 us: CH4 expected=74, memory=74 Successful
+t=434500 us: CH5 expected=5f, memory=5f Successful
+t=498500 us: CH6 expected=77, memory=77 Successful
+t=562500 us: CH7 expected=3c, memory=3c Successful
+t=626500 us: CH8 expected=59, memory=59 Successful
+t=690500 us: CH9 expected=ab, memory=ab Successful
+t=754500 us: CH0 expected=62, memory=62 Successful
+t=818500 us: CH1 expected=61, memory=61 Successful
+t=882500 us: CH2 expected=cc, memory=cc Successful
+t=946500 us: CH3 expected=e0, memory=e0 Successful
+t=1010500 us: CH4 expected=e5, memory=e5 Successful
+t=1074500 us: CH5 expected=28, memory=28 Successful
+t=1138500 us: CH6 expected=57, memory=57 Successful
+t=1202500 us: CH7 expected=ac, memory=ac Successful
+t=1266500 us: CH8 expected=0f, memory=0f Successful
+t=1330500 us: CH9 expected=90, memory=90 Successful
+t=1394500 us: CH0 expected=69, memory=69 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 57
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+relaunch_sim
+Command: launch_simulation -step compile -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -L uvm -prj tb_vlog.prj"
+ECHO is off.
+ECHO is off.
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adc_model
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module digital_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regbank
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb
+WARNING: [VRFC 10-3248] data object 'ana_volt' is already declared [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+WARNING: [VRFC 10-9364] second declaration of 'ana_volt' is ignored [C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv:13]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+Command: launch_simulation -step elaborate -simset sim_1 -mode behavioral
+INFO: [Vivado 12-12493] Simulation top is 'tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log"
+ECHO is off.
+ECHO is off.
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_behav xil_defaultlib.tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv" Line 1. Module digital_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv" Line 1. Module adc doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv" Line 1. Module regbank doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv" Line 1. Module adc_model doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.adc
+Compiling module xil_defaultlib.regbank
+Compiling module xil_defaultlib.digital_top
+Compiling module xil_defaultlib.adc_model
+Compiling module xil_defaultlib.tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+Time resolution is 1 ps
+relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1531.316 ; gain = 0.000
+run 20 ms
+test started!
+t=114500 us: CH0 expected=46, memory=46 Successful
+t=178500 us: CH1 expected=46, memory=46 Successful
+t=242500 us: CH2 expected=23, memory=23 Successful
+t=306500 us: CH3 expected=a7, memory=a7 Successful
+t=370500 us: CH4 expected=74, memory=74 Successful
+t=434500 us: CH5 expected=5f, memory=5f Successful
+t=498500 us: CH6 expected=77, memory=77 Successful
+t=562500 us: CH7 expected=3c, memory=3c Successful
+t=626500 us: CH8 expected=59, memory=59 Successful
+t=690500 us: CH9 expected=ab, memory=ab Successful
+t=754500 us: CH0 expected=62, memory=62 Successful
+t=818500 us: CH1 expected=61, memory=61 Successful
+t=882500 us: CH2 expected=cc, memory=cc Successful
+t=946500 us: CH3 expected=e0, memory=e0 Successful
+t=1010500 us: CH4 expected=e5, memory=e5 Successful
+t=1074500 us: CH5 expected=28, memory=28 Successful
+t=1138500 us: CH6 expected=57, memory=57 Successful
+t=1202500 us: CH7 expected=ac, memory=ac Successful
+t=1266500 us: CH8 expected=0f, memory=0f Successful
+t=1330500 us: CH9 expected=90, memory=90 Successful
+t=1394500 us: CH0 expected=69, memory=69 Successful
+All tests done!
+$finish called at time : 1410 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 56
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\adc.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\regbank.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sources_1\new\digital_top.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\tb.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\Samet AKIN\vivadoproje\ADC\ADC.srcs\sim_1\new\adc_model.sv:]
+ERROR: [Common 17-180] Spawn failed: No error
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May 25 01:23:35 2025...

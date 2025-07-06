@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/Samet AKIN/vivadoproje/ADC/ADC.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv,1748208051,systemVerilog,,C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv,,adc_model,,uvm,,,,,,
+C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv,1748372978,systemVerilog,,,,tb,,uvm,,,,,,
+C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/adc.sv,1748374416,systemVerilog,,C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/adc_model.sv,,adc,,uvm,,,,,,
+C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/digital_top.sv,1748123053,systemVerilog,,C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv,,digital_top,,uvm,,,,,,
+C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sources_1/new/regbank.sv,1748374475,systemVerilog,,C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv,,regbank,,uvm,,,,,,

@@ -1,0 +1,47 @@
+Time resolution is 1 ps
+test started!
+t=114500 us: CH0 expected=46, memory=46 Successful
+t=178500 us: CH1 expected=69, memory=69 Successful
+t=242500 us: CH2 expected=98, memory=98 Successful
+t=306500 us: CH3 expected=ba, memory=ba Successful
+t=370500 us: CH4 expected=ba, memory=ba Successful
+t=434500 us: CH5 expected=47, memory=47 Successful
+t=498500 us: CH6 expected=36, memory=36 Successful
+t=562500 us: CH7 expected=3a, memory=3a Successful
+t=626500 us: CH8 expected=5f, memory=5f Successful
+t=690500 us: CH9 expected=3d, memory=3d Successful
+t=754500 us: CH0 expected=50, memory=50 Successful
+t=818500 us: CH1 expected=54, memory=54 Successful
+t=882500 us: CH2 expected=d0, memory=d0 Successful
+t=946500 us: CH3 expected=65, memory=65 Successful
+t=1010500 us: CH4 expected=25, memory=25 Successful
+t=1074500 us: CH5 expected=d9, memory=d9 Successful
+t=1138500 us: CH6 expected=05, memory=05 Successful
+t=1202500 us: CH7 expected=49, memory=49 Successful
+t=1266500 us: CH8 expected=86, memory=86 Successful
+t=1330500 us: CH9 expected=8b, memory=8b Successful
+t=1394500 us: CH0 expected=09, memory=09 Successful
+system was reseted again
+t=1574500 us: CH0 expected=e6, memory=e6 Successful
+t=1638500 us: CH1 expected=44, memory=44 Successful
+t=1702500 us: CH2 expected=a0, memory=a0 Successful
+t=1766500 us: CH3 expected=6a, memory=6a Successful
+t=1830500 us: CH4 expected=ea, memory=ea Successful
+t=1894500 us: CH5 expected=6d, memory=6d Successful
+t=1958500 us: CH6 expected=90, memory=90 Successful
+t=2022500 us: CH7 expected=5c, memory=5c Successful
+t=2086500 us: CH8 expected=5e, memory=5e Successful
+t=2150500 us: CH9 expected=64, memory=64 Successful
+t=2214500 us: CH0 expected=a7, memory=a7 Successful
+t=2278500 us: CH1 expected=7a, memory=7a Successful
+t=2342500 us: CH2 expected=43, memory=43 Successful
+t=2406500 us: CH3 expected=a3, memory=a3 Successful
+t=2470500 us: CH4 expected=c0, memory=c0 Successful
+t=2534500 us: CH5 expected=2c, memory=2c Successful
+t=2598500 us: CH6 expected=13, memory=13 Successful
+t=2662500 us: CH7 expected=5d, memory=5d Successful
+t=2726500 us: CH8 expected=a6, memory=a6 Successful
+t=2790500 us: CH9 expected=ed, memory=ed Successful
+t=2854500 us: CH0 expected=13, memory=13 Successful
+All tests done!
+$finish called at time : 2870 us : File "C:/Users/Samet AKIN/vivadoproje/ADC/ADC.srcs/sim_1/new/tb.sv" Line 60
